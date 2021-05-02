@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_bg"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".result">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:layout_marginTop="5dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_trophy"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey, Congratulations!"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        />
+    <TextView
+        android:id="@+id/resultBoard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:text="Your score is 7 out of 10"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="finish"
+        android:textSize="16sp"
+        android:padding="18dp"
+        android:layout_marginTop="10dp"
+        android:onClick="finish"
+        android:textColor="@color/design_default_color_primary"
+        android:textStyle="bold"
+        android:backgroundTint="@color/white"
+        />
+
+
+</LinearLayout>
